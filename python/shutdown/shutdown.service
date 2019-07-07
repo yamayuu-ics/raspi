@@ -1,0 +1,9 @@
+
+[Unit]
+escription=shutdown
+
+[Service]
+ExecStart=/home/work/raspi/python/shutdown/shutdoun.py
+
+[Install]
+WantedBy=multi-user.target
