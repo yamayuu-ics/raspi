@@ -1,9 +1,9 @@
 
 [Unit]
-escription=shutdown
+Description=shutdown
 
 [Service]
-ExecStart=/home/work/raspi/python/shutdown/shutdoun.py
+ExecStart=/home/pi/work/raspi/python/shutdown/shutdown.py
 
 [Install]
 WantedBy=multi-user.target
